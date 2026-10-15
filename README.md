@@ -2,7 +2,6 @@
 
 Predict which credit card customers will miss next month's payment, so a bank's risk team can act early (a reminder call, a payment plan, a limit review).
 
-**Author:** Hemanth Ponraj · M.S. Data Science & Analytics, Georgia State University
 
 ---
 
@@ -96,21 +95,7 @@ Recall is within 2 points across groups.
 └── README.md
 ```
 
-## How to run
-
-```bash
-git clone https://github.com/<your-username>/credit-card-default-prediction.git
-cd credit-card-default-prediction
-pip install -r requirements.txt
-jupyter notebook Credit_Card_Default_Prediction.ipynb
-```
-
 ## Tech stack
 
 Python · pandas · NumPy · scikit-learn · matplotlib · seaborn · Jupyter
 
-## Next steps
-
-- Tune Gradient Boosting hyperparameters inside CV
-- Time-based validation (train on older months, test on newer)
-- Set the cutoff using real call and default costs
